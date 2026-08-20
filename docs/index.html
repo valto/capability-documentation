@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="refresh" content="0; url=https://valto.github.io/crd/" />
+    <link rel="canonical" href="https://valto.github.io/crd/" />
+    <title>Redirecting to Capability Documentation</title>
+    <script>
+      (() => {
+        const prefix = "/capability-documentation/";
+        const path = window.location.pathname;
+        const suffix = path.startsWith(prefix) ? path.slice(prefix.length) : "";
+        window.location.replace(`https://valto.github.io/crd/${suffix}${window.location.search}${window.location.hash}`);
+      })();
+    </script>
+  </head>
+  <body>
+    <p>Redirecting to <a href="https://valto.github.io/crd/">Capability Documentation</a>.</p>
+  </body>
+</html>
